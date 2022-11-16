@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./3119088.jpg);
+}
+
+.box{
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2); 
+    
+}
+
+.box h2{
+    margin-bottom: 20px;
+    justify-content: center;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.box h3{
+    margin-bottom: 10px;
+    color: white;
+    letter-spacing: 1px;
+
+}
+.box .form{
+    justify-content: center;
+}
+
+.box .form .username{
+    width: 100%;
+    padding-bottom:10px ;
+}
+
+.box .form .username input{
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 6px;
+    background: transparent;
+    box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.4);
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 15px;
+}
+
+.box .form .username input::placeholder{
+    color: white;
+}
+
+.box .form .password{
+    width: 100%;
+    padding-bottom:10px ;
+}
+
+.box .form .password input{
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 6px;
+    background: transparent;
+    box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.4);
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 15px;
+}
+
+.box .form .password input::placeholder{
+    color: white;
+}
+
+.box .form .submit{
+    width: 100%;
+    padding-top:10px ;
+}
+
+.box .form .submit input:hover{
+    background-color: green;
+    color: white;
+    border: 1px solid green ;
+}
+.box .form .submit input{
+    height: 35px;
+    width:10vh;
+    font-size: 15px;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid white ;
+}
+
+.box .form .remember{
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    width: 100%;
+}
+.box .form .remember label{
+    cursor: pointer;
+}
+
+.box p{
+    padding-top: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.box p a{
+    color: white;
+}
